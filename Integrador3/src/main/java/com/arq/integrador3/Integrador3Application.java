@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Integrador3Application {
 
 	public static void main(String[] args) {
+		System.setProperty("maven.version", "3.6.2");
 		SpringApplication.run(Integrador3Application.class, args);
 	}
 
