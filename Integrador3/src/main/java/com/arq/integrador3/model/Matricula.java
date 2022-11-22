@@ -9,25 +9,25 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.arq.integrador3.controller.MatriculaDTO;
 import com.arq.integrador3.repository.CarreraRepository;
 import com.arq.integrador3.repository.EstudianteRepository;
-import com.fasterxml.jackson.annotation.JsonCreator;
+//import com.fasterxml.jackson.annotation.JsonCreator;
 
-import lombok.*;
-@Data
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+//import lombok.*;
+//@Data
+//@Getter
+//@Setter
+//@NoArgsConstructor
+//@AllArgsConstructor
+//@Builder
 @Entity
 public class Matricula{
 
 
 	//	@Autowired
 //	CarreraRepository carreraRepository;
-	@JsonCreator
+//	@JsonCreator
 	public Matricula() {
 	}
-	@JsonCreator
+//	@JsonCreator
 	public Matricula(Estudiante estudiante, Carrera carrera, int antiguedad) {
 		this.estudiante = estudiante;
 		this.carrera = carrera;

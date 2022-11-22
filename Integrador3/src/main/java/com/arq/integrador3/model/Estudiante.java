@@ -2,31 +2,31 @@ package com.arq.integrador3.model;
 
 import javax.persistence.*;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
+//import com.fasterxml.jackson.annotation.JsonCreator;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+//import lombok.AllArgsConstructor;
+//import lombok.Builder;
+//import lombok.Data;
+//import lombok.Getter;
+//import lombok.NoArgsConstructor;
+//import lombok.Setter;
 
 import java.io.Serializable;
 import java.util.List;
-@Data
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+//@Data
+//@Getter
+//@Setter
+//@NoArgsConstructor
+//@AllArgsConstructor
+//@Builder
 @Entity
 public class Estudiante implements Serializable{
 
 	
-	@JsonCreator
+//	@JsonCreator
 	public Estudiante() {
 	}
-	@JsonCreator
+//	@JsonCreator
 	public Estudiante(int id, String nombre, String apellido, int edad, String genero, int dni, String ciudad, int lu) {
 		this.id = id;
 		this.nombre = nombre;
