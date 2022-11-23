@@ -23,10 +23,7 @@ public class EstudianteController {
 	private EstudianteService estudianteService;
 
 
-	@RequestMapping(value="/{id}", method = RequestMethod.DELETE, produces = "application/json")
-	public void delE(@PathVariable int id){
-		estudianteService.del(id);
-	}
+	
 
 	//	GET ALL
 
