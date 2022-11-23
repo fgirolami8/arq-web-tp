@@ -14,6 +14,11 @@ public class EstudianteService{
 	@Autowired
 	private EstudianteRepository estudianteRepository;
 	
+		public void del(int id) {
+		// TODO Auto-generated method stub
+		estudianteRepository.deleteById(id);;
+	}
+	
 	public Estudiante addEstudiante(Estudiante estudiante) {
 		return estudianteRepository.save(estudiante);
 	}
